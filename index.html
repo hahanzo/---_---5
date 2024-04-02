@@ -1,0 +1,123 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Граф міст</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <label for="city1">Місто 1:</label>
+  <input type="text" id="city1" name="city1"><br>
+  <label for="city2">Місто 2:</label>
+  <input type="text" id="city2" name="city2"><br>
+  <label for="distance">Відстань:</label>
+  <input type="text" id="distance" name="distance"><br>
+  <button onclick="addEdge()">Додати ребро</button><br>
+  <div id="graph"></div>
+  <p id="result"></p>
+
+  <script>
+    let edges = [];
+
+    function addEdge() {
+      const city1 = document.getElementById('city1').value.trim();
+      const city2 = document.getElementById('city2').value.trim();
+      const distance = document.getElementById('distance').value.trim();
+      
+      if (city1 === "" || city2 === "" || distance === "") {
+        alert("Будь ласка, заповніть всі поля");
+        return;
+      }
+
+      const existingEdgeIndex = edges.findIndex(edge => (edge.city1 === city1 && edge.city2 === city2) || (edge.city1 === city2 && edge.city2 === city1));
+      if (existingEdgeIndex !== -1) {
+        edges[existingEdgeIndex].distance = distance;
+      } else {
+        edges.push({ city1, city2, distance });
+      }
+      
+      document.getElementById('city1').value = "";
+      document.getElementById('city2').value = "";
+      document.getElementById('distance').value = "";
+      renderGraph();
+    }
+
+    function renderGraph() {
+      const graph = { nodes: [], links: [] };
+      edges.forEach(edge => {
+        const { city1, city2, distance } = edge;
+        const sourceNode = graph.nodes.find(node => node.id === city1);
+        const targetNode = graph.nodes.find(node => node.id === city2);
+
+        if (!sourceNode) {
+          graph.nodes.push({ id: city1 });
+        }
+        if (!targetNode) {
+          graph.nodes.push({ id: city2 });
+        }
+        graph.links.push({ source: city1, target: city2, distance });
+      });
+
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      const renderer = new THREE.WebGLRenderer();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.getElementById('graph').appendChild(renderer.domElement);
+
+      const nodesGroup = new THREE.Group();
+      graph.nodes.forEach(node => {
+        const geometry = new THREE.SphereGeometry(0.5, 16, 16);
+        const material = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+        const sphere = new THREE.Mesh(geometry, material);
+        sphere.position.set(Math.random() * 10, Math.random() * 10, Math.random() * 10);
+        nodesGroup.add(sphere);
+
+        const text = createText(node.id);
+        text.position.set(sphere.position.x + 1, sphere.position.y + 1, sphere.position.z + 1);
+        nodesGroup.add(text);
+      });
+      scene.add(nodesGroup);
+
+      const linksGroup = new THREE.Group();
+      graph.links.forEach(link => {
+        const sourceNode = graph.nodes.find(node => node.id === link.source);
+        const targetNode = graph.nodes.find(node => node.id === link.target);
+        const geometry = new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(sourceNode.position.x, sourceNode.position.y, sourceNode.position.z), new THREE.Vector3(targetNode.position.x, targetNode.position.y, targetNode.position.z)]);
+        const material = new THREE.LineBasicMaterial({ color: 0x0000ff });
+        const line = new THREE.Line(geometry, material);
+        linksGroup.add(line);
+
+        const text = createText(link.distance);
+        const midpoint = new THREE.Vector3().addVectors(new THREE.Vector3(sourceNode.position.x, sourceNode.position.y, sourceNode.position.z), new THREE.Vector3(targetNode.position.x, targetNode.position.y, targetNode.position.z)).divideScalar(2);
+        text.position.set(midpoint.x, midpoint.y, midpoint.z);
+        linksGroup.add(text);
+      });
+      scene.add(linksGroup);
+
+      camera.position.z = 20;
+
+      function animate() {
+        requestAnimationFrame(animate);
+        renderer.render(scene, camera);
+      }
+
+      function createText(text) {
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        context.font = "Bold 20px Arial";
+        context.fillStyle = "rgba(255,255,255,0.95)";
+        context.fillText(text, 0, 20);
+        const texture = new THREE.Texture(canvas);
+        texture.needsUpdate = true;
+        const spriteMaterial = new THREE.SpriteMaterial({ map: texture });
+        const sprite = new THREE.Sprite(spriteMaterial);
+        sprite.scale.set(2, 1, 1);
+        return sprite;
+      }
+
+      animate();
+    }
+  </script>
+</body>
+</html>
