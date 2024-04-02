@@ -58,10 +58,10 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-    <h1>Граф міст</h1>
+    <!-- <h1>Граф міст</h1> -->
     <div class="graph-container">
-        <svg width="800" height="600"></svg>
-        <div style="text-align: center; margin-top: 20px;">
+        <svg width="1200" height="800"></svg>
+        <!-- <div style="text-align: center; margin-top: 20px;">
             <label for="vertexName">Ім'я нової вершини:</label>
             <input type="text" id="vertexName">
             <br>
@@ -74,36 +74,33 @@
             <label for="edgeDistance">Відстань між містами:</label>
             <input type="number" id="edgeDistance">
             <br>
-            <button onclick="addVertexAndEdge(
-                document.getElementById('vertexName').value,
-                document.getElementById('edgeSource').value,
-                document.getElementById('edgeTarget').value,
-                parseFloat(document.getElementById('edgeDistance').value)
-            )">Додати вершину та ребро</button>
-        </div>
+            <button onclick="addVertexAndEdge()">Додати вершину та ребро</button>
+        </div> -->
     </div>
 
     <script>
-        let cities = [
-            { name: "Київ", x: 100, y: 100 },
-            { name: "Львів", x: 300, y: 200 },
-            { name: "Одеса", x: 500, y: 300 },
-            { name: "Харків", x: 200, y: 400 },
-            { name: "Дніпро", x: 400, y: 500 }
-        ];
+        let cities = [];
+        let distances = [];
 
-        let distances = [
-            { source: "Київ", target: "Львів", distance: 300 },
-            { source: "Київ", target: "Одеса", distance: 500 },
-            { source: "Київ", target: "Харків", distance: 400 },
-            { source: "Київ", target: "Дніпро", distance: 450 },
-            { source: "Львів", target: "Одеса", distance: 600 },
-            { source: "Львів", target: "Харків", distance: 350 },
-            { source: "Львів", target: "Дніпро", distance: 400 },
-            { source: "Одеса", target: "Харків", distance: 550 },
-            { source: "Одеса", target: "Дніпро", distance: 300 },
-            { source: "Харків", target: "Дніпро", distance: 200 }
-        ];
+        async function fetchData() {
+            const response = await fetch('City.json');
+            const data = await response.json();
+            cities = data.cities;
+            distances = [];
+
+            // Заповнення масиву distances з масиву cities
+            cities.forEach(city => {
+                city.connections.forEach(connection => {
+                    distances.push({
+                        source: city.name,
+                        target: connection.city,
+                        distance: connection.distance
+                    });
+                });
+            });
+
+            updateGraph();
+        }
 
         const svg = d3.select("svg");
 
@@ -153,12 +150,24 @@
         }
 
         // Функція для додавання нових вершин і ребер
-        function addVertexAndEdge(vertexName, edgeSource, edgeTarget, edgeDistance) {
-            cities.push({ name: vertexName, x: Math.random() * 600, y: Math.random() * 400 });
-            distances.push({ source: edgeSource, target: vertexName, distance: edgeDistance });
-            distances.push({ source: vertexName, target: edgeTarget, distance: edgeDistance });
-            updateGraph();
+        function addVertexAndEdge() {
+            const vertexName = document.getElementById('vertexName').value;
+            const edgeSource = document.getElementById('edgeSource').value;
+            const edgeTarget = document.getElementById('edgeTarget').value;
+            const edgeDistance = parseFloat(document.getElementById('edgeDistance').value);
+
+            // Перевірка, чи ребро не дублюється
+            const existingEdge = distances.find(edge => (edge.source === edgeSource && edge.target === edgeTarget) || (edge.source === edgeTarget && edge.target === edgeSource));
+            if (!existingEdge) {
+                cities.push({ name: vertexName, x: Math.random() * 600, y: Math.random() * 400 });
+                distances.push({ source: edgeSource, target: vertexName, distance: edgeDistance });
+                distances.push({ source: vertexName, target: edgeTarget, distance: edgeDistance });
+                updateGraph();
+            }else {
+                console.log('Це ребро вже існує.');
+            }
         }
+
 
         // Перетягування вершин
         const drag = d3.drag()
@@ -173,7 +182,7 @@
                 d3.select(event.sourceEvent.target).attr('stroke', null);
             });
 
-        updateGraph(); // Виклик функції для початкового відображення графа
+        fetchData(); // Завантаження даних при завантаженні сторінки
     </script>
 </body>
 </html>
