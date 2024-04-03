@@ -60,7 +60,7 @@
 <body>
     <!-- <h1>Граф міст</h1> -->
     <div class="graph-container">
-        <svg width="1200" height="800"></svg>
+        <svg width="1500" height="800"></svg>
         <!-- <div style="text-align: center; margin-top: 20px;">
             <label for="vertexName">Ім'я нової вершини:</label>
             <input type="text" id="vertexName">
@@ -85,7 +85,16 @@
         async function fetchData() {
             const response = await fetch('City.json');
             const data = await response.json();
-            cities = data.cities;
+
+            // Зробимо фільтрацію міст і відношень на основі заданих міст
+            const desiredCities = [
+                "Вінниця", "Дніпро", "Донецьк", "Житомир", "Ів-Франківськ",
+                "Кропивницький", "Луганськ", "Луцьк", "Львів", "Миколаїв",
+                "Полтава", "Рівне", "Сімферополь", "Тернопіль", "Ужгород",
+                "Харків", "Херсон", "Хмельницький", "Черкаси", "Чернігів"
+            ];
+            cities = data.cities.filter(city => desiredCities.includes(city.name));
+            // cities = data.cities;
             distances = [];
 
             // Заповнення масиву distances з масиву cities
@@ -105,49 +114,70 @@
         const svg = d3.select("svg");
 
         function updateGraph() {
-            svg.selectAll("*").remove(); // Очистка SVG
+    svg.selectAll("*").remove(); // Очистка SVG
 
-            // Додавання ліній, що представляють ребра графа
-            svg.selectAll("line")
-                .data(distances)
-                .enter().append("line")
-                .attr("x1", d => cities.find(city => city.name === d.source).x)
-                .attr("y1", d => cities.find(city => city.name === d.source).y)
-                .attr("x2", d => cities.find(city => city.name === d.target).x)
-                .attr("y2", d => cities.find(city => city.name === d.target).y)
-                .style("stroke", "black");
+    // Додавання ліній, що представляють ребра графа
+    svg.selectAll("line")
+        .data(distances)
+        .enter().append("line")
+        .attr("x1", d => {
+            const sourceCity = cities.find(city => city.name === d.source);
+            return sourceCity ? sourceCity.x : 0;
+        })
+        .attr("y1", d => {
+            const sourceCity = cities.find(city => city.name === d.source);
+            return sourceCity ? sourceCity.y : 0;
+        })
+        .attr("x2", d => {
+            const targetCity = cities.find(city => city.name === d.target);
+            return targetCity ? targetCity.x : 0;
+        })
+        .attr("y2", d => {
+            const targetCity = cities.find(city => city.name === d.target);
+            return targetCity ? targetCity.y : 0;
+        })
+        .style("stroke", "black");
 
-            // Додавання ваги на ребра
-            svg.selectAll("text")
-                .data(distances)
-                .enter().append("text")
-                .attr("x", d => (cities.find(city => city.name === d.source).x + cities.find(city => city.name === d.target).x) / 2)
-                .attr("y", d => (cities.find(city => city.name === d.source).y + cities.find(city => city.name === d.target).y) / 2)
-                .text(d => d.distance)
-                .style("fill", "black")
-                .attr("text-anchor", "middle")
-                .attr("alignment-baseline", "middle");
+    // Додавання ваги на ребра
+    svg.selectAll("text")
+        .data(distances)
+        .enter().append("text")
+        .attr("x", d => {
+            const sourceCity = cities.find(city => city.name === d.source);
+            const targetCity = cities.find(city => city.name === d.target);
+            return sourceCity && targetCity ? (sourceCity.x + targetCity.x) / 2 : 0;
+        })
+        .attr("y", d => {
+            const sourceCity = cities.find(city => city.name === d.source);
+            const targetCity = cities.find(city => city.name === d.target);
+            return sourceCity && targetCity ? (sourceCity.y + targetCity.y) / 2 : 0;
+        })
+        .text(d => d.distance)
+        .style("fill", "black")
+        .attr("text-anchor", "middle")
+        .attr("alignment-baseline", "middle");
 
-            // Додавання кола, що представляє вершини графа
-            svg.selectAll("circle")
-                .data(cities)
-                .enter().append("circle")
-                .attr("cx", d => d.x)
-                .attr("cy", d => d.y)
-                .attr("r", 10)
-                .style("fill", "red")
-                .call(drag);
+    // Додавання кола, що представляє вершини графа
+    svg.selectAll("circle")
+        .data(cities)
+        .enter().append("circle")
+        .attr("cx", d => d.x)
+        .attr("cy", d => d.y)
+        .attr("r", 10)
+        .style("fill", "red")
+        .call(drag);
 
-            // Додавання тексту з іменами міст
-            svg.selectAll("text.node")
-                .data(cities)
-                .enter().append("text")
-                .attr("x", d => d.x + 15)
-                .attr("y", d => d.y + 5)
-                .text(d => d.name)
-                .style("fill", "black")
-                .attr("class", "node");
-        }
+    // Додавання тексту з іменами міст
+    svg.selectAll("text.node")
+        .data(cities)
+        .enter().append("text")
+        .attr("x", d => d.x + 15)
+        .attr("y", d => d.y + 5)
+        .text(d => d.name)
+        .style("fill", "black")
+        .attr("class", "node");
+}
+
 
         // Функція для додавання нових вершин і ребер
         function addVertexAndEdge() {
