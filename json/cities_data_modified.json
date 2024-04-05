@@ -1,0 +1,2527 @@
+[
+        {
+            "name": "Вінниця",
+            "connections": [
+                {
+                    "city": "Дніпро",
+                    "distance": 645
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 868
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 125
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 748
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 366
+                },
+                {
+                    "city": "Київ",
+                    "distance": 256
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 316
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1057
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 382
+                },
+                {
+                    "city": "Львів",
+                    "distance": 360
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 471
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 428
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 593
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 311
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 844
+                },
+                {
+                    "city": "Суми",
+                    "distance": 602
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 232
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 575
+                },
+                {
+                    "city": "Харків",
+                    "distance": 734
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 521
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 120
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 343
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 312
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 396
+                }
+            ]
+        },
+        {
+            "name": "Дніпро",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 645
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 252
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 664
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 81
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 901
+                },
+                {
+                    "city": "Київ",
+                    "distance": 533
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 294
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 394
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 805
+                },
+                {
+                    "city": "Львів",
+                    "distance": 975
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 343
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 468
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 196
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 957
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 446
+                },
+                {
+                    "city": "Суми",
+                    "distance": 430
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 877
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 1130
+                },
+                {
+                    "city": "Харків",
+                    "distance": 213
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 376
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 765
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 324
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 891
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 672
+                }
+            ]
+        },
+        {
+            "name": "Донецьк",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 868
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 252
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 858
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 217
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 1171
+                },
+                {
+                    "city": "Київ",
+                    "distance": 727
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 520
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 148
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 1111
+                },
+                {
+                    "city": "Львів",
+                    "distance": 1221
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 611
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 731
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 390
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 1045
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 591
+                },
+                {
+                    "city": "Суми",
+                    "distance": 706
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 988
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 547
+                },
+                {
+                    "city": "Харків",
+                    "distance": 1141
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 867
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 389
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 547
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 1141
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 867
+                }
+            ]
+        },
+        {
+            "name": "Житомир",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 125
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 664
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 858
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 738
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 431
+                },
+                {
+                    "city": "Київ",
+                    "distance": 131
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 407
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1182
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 257
+                },
+                {
+                    "city": "Львів",
+                    "distance": 423
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 677
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 557
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 468
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 187
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 803
+                },
+                {
+                    "city": "Суми",
+                    "distance": 477
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 298
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 671
+                },
+                {
+                    "city": "Харків",
+                    "distance": 690
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 297
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 875
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 405
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 624
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 271
+                }
+            ]
+        },
+        {
+            "name": "Запоріжжя",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 748
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 81
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 217
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 738
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 1119
+                },
+                {
+                    "city": "Київ",
+                    "distance": 607
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 303
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 365
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 681
+                },
+                {
+                    "city": "Львів",
+                    "distance": 833
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 377
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 497
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 270
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 925
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 365
+                },
+                {
+                    "city": "Суми",
+                    "distance": 477
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 681
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 1488
+                },
+                {
+                    "city": "Харків",
+                    "distance": 287
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 798
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 246
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 709
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 1040
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 798
+                }
+            ]
+        },
+        {
+            "name": "Ів-Франківськ",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 366
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 901
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 1171
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 431
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 1119
+                },
+                {
+                    "city": "Київ",
+                    "distance": 561
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 618
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1402
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 328
+                },
+                {
+                    "city": "Львів",
+                    "distance": 135
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 747
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 627
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 490
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 898
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 1070
+                },
+                {
+                    "city": "Суми",
+                    "distance": 908
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 1402
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 328
+                },
+                {
+                    "city": "Харків",
+                    "distance": 561
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 1402
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 246
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 798
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 1040
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 246
+                }
+            ]
+        },
+        {
+            "name": "Київ",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 256
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 533
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 727
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 131
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 607
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 561
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 456
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1040
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 339
+                },
+                {
+                    "city": "Львів",
+                    "distance": 520
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 536
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 472
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 325
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 150
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 774
+                },
+                {
+                    "city": "Суми",
+                    "distance": 427
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 333
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 622
+                },
+                {
+                    "city": "Харків",
+                    "distance": 478
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 571
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 237
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 195
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 578
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 147
+                }
+            ]
+        },
+        {
+            "name": "Кропивницький",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 316
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 294
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 520
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 407
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 303
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 618
+                },
+                {
+                    "city": "Київ",
+                    "distance": 456
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1091
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 217
+                },
+                {
+                    "city": "Львів",
+                    "distance": 437
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 677
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 470
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 237
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 675
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 984
+                },
+                {
+                    "city": "Суми",
+                    "distance": 553
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 462
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 643
+                },
+                {
+                    "city": "Харків",
+                    "distance": 496
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 861
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 368
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 135
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 808
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 322
+                }
+            ]
+        },
+        {
+            "name": "Луганськ",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 1057
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 394
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 148
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 1182
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 365
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 1402
+                },
+                {
+                    "city": "Київ",
+                    "distance": 1040
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 1091
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 1082
+                },
+                {
+                    "city": "Львів",
+                    "distance": 1146
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 798
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 915
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 601
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 1270
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 745
+                },
+                {
+                    "city": "Суми",
+                    "distance": 669
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 1332
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 921
+                },
+                {
+                    "city": "Харків",
+                    "distance": 596
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 1019
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 656
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 805
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 1424
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 1019
+                }
+            ]
+        },
+        {
+            "name": "Луцьк",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 382
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 805
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 1111
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 257
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 681
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 328
+                },
+                {
+                    "city": "Київ",
+                    "distance": 339
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 217
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1082
+                },
+                {
+                    "city": "Львів",
+                    "distance": 270
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 560
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 504
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 502
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 180
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 799
+                },
+                {
+                    "city": "Суми",
+                    "distance": 427
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 390
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 675
+                },
+                {
+                    "city": "Харків",
+                    "distance": 506
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 642
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 409
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 232
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 597
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 199
+                }
+            ]
+        },
+        {
+            "name": "Львів",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 360
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 975
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 1221
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 423
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 833
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 135
+                },
+                {
+                    "city": "Київ",
+                    "distance": 520
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 437
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1146
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 270
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 712
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 518
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 546
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 303
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 920
+                },
+                {
+                    "city": "Суми",
+                    "distance": 514
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 259
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 513
+                },
+                {
+                    "city": "Харків",
+                    "distance": 785
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 554
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 293
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 418
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 194
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 324
+                }
+            ]
+        },
+        {
+            "name": "Миколаїв",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 471
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 343
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 611
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 677
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 377
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 747
+                },
+                {
+                    "city": "Київ",
+                    "distance": 536
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 677
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 798
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 560
+                },
+                {
+                    "city": "Львів",
+                    "distance": 712
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 190
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 478
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 548
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 724
+                },
+                {
+                    "city": "Суми",
+                    "distance": 536
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 714
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 995
+                },
+                {
+                    "city": "Харків",
+                    "distance": 434
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 346
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 691
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 444
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 839
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 451
+                }
+            ]
+        },
+        {
+            "name": "Одеса",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 428
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 468
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 731
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 557
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 497
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 627
+                },
+                {
+                    "city": "Київ",
+                    "distance": 472
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 470
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 915
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 504
+                },
+                {
+                    "city": "Львів",
+                    "distance": 518
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 190
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 497
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 640
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 549
+                },
+                {
+                    "city": "Суми",
+                    "distance": 650
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 600
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 823
+                },
+                {
+                    "city": "Харків",
+                    "distance": 578
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 335
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 653
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 370
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 735
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 389
+                }
+            ]
+        },
+        {
+            "name": "Полтава",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 593
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 196
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 390
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 468
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 270
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 490
+                },
+                {
+                    "city": "Київ",
+                    "distance": 325
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 237
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 601
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 502
+                },
+                {
+                    "city": "Львів",
+                    "distance": 546
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 478
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 497
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 474
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 787
+                },
+                {
+                    "city": "Суми",
+                    "distance": 174
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 705
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 888
+                },
+                {
+                    "city": "Харків",
+                    "distance": 150
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 500
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 346
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 240
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 788
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 255
+                }
+            ]
+        },
+        {
+            "name": "Рівне",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 311
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 957
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 1045
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 187
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 925
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 898
+                },
+                {
+                    "city": "Київ",
+                    "distance": 150
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 675
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1270
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 180
+                },
+                {
+                    "city": "Львів",
+                    "distance": 303
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 548
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 640
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 474
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 913
+                },
+                {
+                    "city": "Суми",
+                    "distance": 324
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 560
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 767
+                },
+                {
+                    "city": "Харків",
+                    "distance": 330
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 738
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 370
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 306
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 567
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 255
+                }
+            ]
+        },
+        {
+            "name": "Сімферополь",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 897
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 712
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 420
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 803
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 365
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 1070
+                },
+                {
+                    "city": "Київ",
+                    "distance": 774
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 984
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 745
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 799
+                },
+                {
+                    "city": "Львів",
+                    "distance": 920
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 724
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 549
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 787
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 913
+                },
+                {
+                    "city": "Суми",
+                    "distance": 931
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 975
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 1136
+                },
+                {
+                    "city": "Харків",
+                    "distance": 843
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 692
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 799
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 692
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 1161
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 843
+                }
+            ]
+        },
+        {
+            "name": "Суми",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 415
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 231
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 533
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 477
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 477
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 908
+                },
+                {
+                    "city": "Київ",
+                    "distance": 427
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 553
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 669
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 427
+                },
+                {
+                    "city": "Львів",
+                    "distance": 514
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 536
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 650
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 174
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 324
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 931
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 573
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 726
+                },
+                {
+                    "city": "Харків",
+                    "distance": 189
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 574
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 477
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 257
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 683
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 146
+                }
+            ]
+        },
+        {
+            "name": "Тернопіль",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 123
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 702
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 997
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 298
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 681
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 1402
+                },
+                {
+                    "city": "Київ",
+                    "distance": 333
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 462
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1332
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 390
+                },
+                {
+                    "city": "Львів",
+                    "distance": 259
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 714
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 600
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 705
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 560
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 975
+                },
+                {
+                    "city": "Суми",
+                    "distance": 573
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 792
+                },
+                {
+                    "city": "Харків",
+                    "distance": 462
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 814
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 329
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 289
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 486
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 195
+                }
+            ]
+        },
+        {
+            "name": "Ужгород",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 612
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 859
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 1177
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 682
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 847
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 282
+                },
+                {
+                    "city": "Київ",
+                    "distance": 622
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 643
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 921
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 675
+                },
+                {
+                    "city": "Львів",
+                    "distance": 513
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 995
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 823
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 888
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 767
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 1136
+                },
+                {
+                    "city": "Суми",
+                    "distance": 726
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 792
+                },
+                {
+                    "city": "Харків",
+                    "distance": 765
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 945
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 718
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 508
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 373
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 566
+                }
+            ]
+        },
+        {
+            "name": "Харків",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 469
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 256
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 533
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 567
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 607
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 561
+                },
+                {
+                    "city": "Київ",
+                    "distance": 478
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 496
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 596
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 506
+                },
+                {
+                    "city": "Львів",
+                    "distance": 785
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 434
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 578
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 150
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 330
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 843
+                },
+                {
+                    "city": "Суми",
+                    "distance": 189
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 462
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 765
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 539
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 423
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 332
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 669
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 239
+                }
+            ]
+        },
+        {
+            "name": "Херсон",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 558
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 729
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 1030
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 601
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 358
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 789
+                },
+                {
+                    "city": "Київ",
+                    "distance": 571
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 861
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1019
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 642
+                },
+                {
+                    "city": "Львів",
+                    "distance": 554
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 346
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 335
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 500
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 738
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 692
+                },
+                {
+                    "city": "Суми",
+                    "distance": 574
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 814
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 945
+                },
+                {
+                    "city": "Харків",
+                    "distance": 539
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 676
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 437
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 851
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 547
+                }
+            ]
+        },
+        {
+            "name": "Хмельницький",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 198
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 479
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 793
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 208
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 658
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 535
+                },
+                {
+                    "city": "Київ",
+                    "distance": 317
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 147
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 907
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 409
+                },
+                {
+                    "city": "Львів",
+                    "distance": 409
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 691
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 653
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 346
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 370
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 799
+                },
+                {
+                    "city": "Суми",
+                    "distance": 477
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 329
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 718
+                },
+                {
+                    "city": "Харків",
+                    "distance": 423
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 676
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 229
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 299
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 262
+                }
+            ]
+        },
+        {
+            "name": "Черкаси",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 214
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 256
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 626
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 219
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 523
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 529
+                },
+                {
+                    "city": "Київ",
+                    "distance": 190
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 363
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 838
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 307
+                },
+                {
+                    "city": "Львів",
+                    "distance": 418
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 444
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 370
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 240
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 306
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 692
+                },
+                {
+                    "city": "Суми",
+                    "distance": 257
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 289
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 508
+                },
+                {
+                    "city": "Харків",
+                    "distance": 332
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 437
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 229
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 345
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 199
+                }
+            ]
+        },
+        {
+            "name": "Чернівці",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 255
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 581
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 887
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 293
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 711
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 202
+                },
+                {
+                    "city": "Київ",
+                    "distance": 521
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 328
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 1030
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 344
+                },
+                {
+                    "city": "Львів",
+                    "distance": 194
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 839
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 735
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 788
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 567
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 1161
+                },
+                {
+                    "city": "Суми",
+                    "distance": 683
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 486
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 373
+                },
+                {
+                    "city": "Харків",
+                    "distance": 669
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 851
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 299
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 345
+                },
+                {
+                    "city": "Чернігів",
+                    "distance": 435
+                }
+            ]
+        },
+        {
+            "name": "Чернігів",
+            "connections": [
+                {
+                    "city": "Вінниця",
+                    "distance": 259
+                },
+                {
+                    "city": "Дніпро",
+                    "distance": 359
+                },
+                {
+                    "city": "Донецьк",
+                    "distance": 746
+                },
+                {
+                    "city": "Житомир",
+                    "distance": 144
+                },
+                {
+                    "city": "Запоріжжя",
+                    "distance": 752
+                },
+                {
+                    "city": "Ів-Франківськ",
+                    "distance": 665
+                },
+                {
+                    "city": "Київ",
+                    "distance": 146
+                },
+                {
+                    "city": "Кропивницький",
+                    "distance": 352
+                },
+                {
+                    "city": "Луганськ",
+                    "distance": 950
+                },
+                {
+                    "city": "Луцьк",
+                    "distance": 248
+                },
+                {
+                    "city": "Львів",
+                    "distance": 440
+                },
+                {
+                    "city": "Миколаїв",
+                    "distance": 696
+                },
+                {
+                    "city": "Одеса",
+                    "distance": 389
+                },
+                {
+                    "city": "Полтава",
+                    "distance": 255
+                },
+                {
+                    "city": "Рівне",
+                    "distance": 255
+                },
+                {
+                    "city": "Сімферополь",
+                    "distance": 843
+                },
+                {
+                    "city": "Суми",
+                    "distance": 146
+                },
+                {
+                    "city": "Тернопіль",
+                    "distance": 195
+                },
+                {
+                    "city": "Ужгород",
+                    "distance": 566
+                },
+                {
+                    "city": "Харків",
+                    "distance": 239
+                },
+                {
+                    "city": "Херсон",
+                    "distance": 547
+                },
+                {
+                    "city": "Хмельницький",
+                    "distance": 262
+                },
+                {
+                    "city": "Черкаси",
+                    "distance": 199
+                },
+                {
+                    "city": "Чернівці",
+                    "distance": 435
+                }
+            ]
+        }
+    ]
